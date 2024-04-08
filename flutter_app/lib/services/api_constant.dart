@@ -1,0 +1,111 @@
+import 'package:flutter_config/flutter_config.dart';
+
+class ApiConstant {
+  ApiConstant._();
+
+  static const String uploadURL = '/upload';
+
+  static String baseURL = FlutterConfig.get('BASE_URL');
+
+  static const String login = '/login';
+  static const String loginSocial = '/login-social';
+  static const String listCountry = '/country';
+  static const String searchList = '/user-search?search=';
+  static const String listSport = '/sport';
+  static const String listRelationship = '/contact-relationship';
+  static const String listReport = '/report-type';
+  static const String listCurrency = '/currency';
+  static const String upload = '/upload';
+  static const String registerSocial = '/register-social';
+  static const String checkExisting = '/register/check-existing';
+  static const String forgotPassword = '/password/forgot';
+  static const String resetPassword = '/password/reset';
+  static const String updateEmailByToken = '/user/change-email';
+  static const String registerUser = '/register';
+  static const String event = '/event';
+  static const String eventSchedule = '/event/schedule';
+  static const String userSearchURL = '/user-search?search=';
+  static const String weekScheduleURL = '/schedule-bydate?date=';
+  static const String getDetailEvent = '/event-booking-info/';
+  static const String getEventsVerticalCalendar = '/schedule-calendar';
+  static const String joinEvent = '/event/';
+  static const String updateEvent = "/event/";
+  static const String getUserProfile = "/user/%s/profile";
+  static const String updateUserProfile = "/user/";
+  static const String getTeamProfile = "/team/";
+  static const String getMyTeam = "/my-team";
+  static const String createTeam = "/team";
+  static const String getTeamSelection = "/team-managed";
+  static const String updateTeam = "/team/";
+  static const String skillLevel = "/skill-level";
+  static const String organizationRole = "/organization-role";
+  static const String myProfile = "/me/profile";
+  static const String teamLeave = "/team-leave/";
+  static const String teamMember = "/team-member/";
+  static const String teamInvite = "/team-invite/";
+  static const String updateInvite = "/invite/";
+  static const String teamBlock = "/team-block/";
+  static const String getProfileContent = "/user/%s/profile-content";
+  static const String getProfileTeamContent = "/team/%s/profile-content";
+  static const String rosterTeam = "/team-roster/";
+  static const String teamDeletion = "/team/";
+  static const String changeTeamOwnership = "/team/";
+  static const String teamRole = "/team-role";
+  static const String teamRequest = "/team-request/";
+  static const String teamJoin = "/team-request";
+  static const String overlapSchedule = "/is-overlap-schedule";
+  static const String changePassword = "/password/change";
+  static const String cancelJoinTeam = "/team-request/";
+  static const String accountDelete = "/user/%s";
+  static const String verifyTeamNameExists = "/team/verify?name=";
+  static const String addBookmark = "/bookmark";
+  static const String deleteBookmark = "/bookmark/";
+  static const String getBookmarks = "/bookmark/";
+
+  static const String addFollow = "/follow";
+  static const String unFollow = "/unfollow";
+  static const String getFollow = "/interaction/by/me";
+  static const String getFollowers = "/interaction/to/me";
+  static const String getVenue = "/venue";
+  static const String getListBookingVenue = "/venue/booking";
+  static const String getListLocationRecommend = "/location/recommend";
+  static const String venue = "/venue/";
+  static const String userBlock = "/block";
+  static const String userUnBlock = "/unblock";
+  static const String getListLevel = "/country";
+  static const String searchTeam = "/team/search?q=";
+
+  static const String bookedVenue = "/venue/booking/";
+  static const String mute = "/mute";
+  static const String unMute = "/unmute";
+  static const String listMessageByMe = "/topic/me";
+  static const String listMessageTeam = "/topic/team/";
+  static const String messageContent = "/topic/%s/message";
+  static const String createMessage = "/topic/message";
+  static const String updateReadMsg = "/topic/%s/read";
+  static const String removeFollower = "/remove-follow";
+  static const String createPost = "/post";
+  static const String requestChatDirectly = "/topic/message";
+
+  static const String searchRecommend = "/search/recommend";
+  static const String search = "/search";
+  static const String searchPopularity = "/search/popularity";
+  static const String searchRecent = "/search/recent";
+  static const String eventByCode = "/event/code/";
+  static const String getBookmarkPosts = "/bookmark/post";
+  static const String requestLikePost = "/like";
+  static const String getLikes = "/like";
+  static const String getComments = "/post/%s/comment";
+  static const String getReplies = "/post/%s/comment/";
+  static const String postComment = "/comment";
+  static const String updatePost = "/post/";
+  static const String deletePost = "/post/";
+  static const String changeEmail = "/user/%s/change-email";
+  static const String searchChatUserTeam = "/search/chat";
+  static const String deleteHistoryChat = "/topic/";
+  static const String hidePost = "/me/content/display";
+  static const String report = "/report-content";
+
+  static const String notification = "/notifications";
+  static const String getPost = "/post/";
+}
